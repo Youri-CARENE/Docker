@@ -1,0 +1,10 @@
+Docker Compose est un outil qui vous permet de définir et d’exécuter des applications Docker multi-conteneurs. Il utilise un fichier YAML pour définir les services, les réseaux et les volumes requis pour exécuter l’application. Avec Docker Compose, vous pouvez spécifier la configuration de tous les services de votre application dans un seul fichier, ce qui facilite la rotation et la gestion des conteneurs de votre application en tant qu’unité unique.
+Voici quelques-unes des principales fonctionnalités de Docker Compose :
+1.	Applications multi-conteneurs : Docker Compose vous permet de définir plusieurs conteneurs qui fonctionnent ensemble pour fournir une application complète.
+2.	Définition du service : vous pouvez définir chaque service de votre application, y compris son image de conteneur, ses ports, ses variables d’environnement et ses dépendances.
+3.	Mise en réseau : Docker Compose crée un réseau pour les conteneurs de votre application, leur permettant de communiquer entre eux.
+4.	Définition de volume : vous pouvez définir des volumes pour les conteneurs de votre application, ce qui leur permet de partager des données entre eux et avec la machine hôte.
+5.	Orchestration des conteneurs : Docker Compose offre un moyen simple de démarrer, d’arrêter et de gérer les conteneurs de votre application, ainsi que de les augmenter ou de les réduire selon vos besoins.
+À l’aide de Docker Compose, vous pouvez définir l’ensemble de l’infrastructure de votre application sous forme de code, ce qui facilite le partage et la reproduction de votre application dans différents environnements. Docker Compose est particulièrement utile pour le développement et les tests, car il vous permet de faire tourner et de démonter rapidement les conteneurs de votre application.
+Pour utiliser Docker Compose, vous devez l’installer sur votre machine et créer un fichier YAML qui définit les services de votre application. Vous pouvez ensuite utiliser la commande docker-compose pour démarrer, arrêter et gérer les conteneurs de votre application.
+
