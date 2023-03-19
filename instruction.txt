@@ -1,0 +1,2 @@
+La commande docker network create crée un nouveau réseau pont nommé my-network. Ce réseau sera utilisé pour connecter les conteneurs entre eux.
+La boucle for crée 5 conteneurs avec la commande docker run. Chaque conteneur reçoit un nom unique (container-$i, où $i est le compteur de la boucle) et est connecté au réseau my-network. L'image ubuntu est utilisée pour créer les conteneurs.
